@@ -1,0 +1,3 @@
+﻿  ClassC++.cpp
+D:\projects\MDK\MDK.01.01 Разработка программных модулей\ClassC++\ClassC++\ClassC++.cpp(34,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  ClassC++.vcxproj -> D:\projects\MDK\MDK.01.01 Разработка программных модулей\ClassC++\x64\Debug\ClassC++.exe

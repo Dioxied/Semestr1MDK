@@ -1,0 +1,5 @@
+D:\projects\MDK\MDK.01.02 Поддержка и тестирование программных модулей\Практическая 3\calculator\calculator\bin\Release\net8.0-windows\app.publish\calculator.exe
+D:\projects\MDK\MDK.01.02 Поддержка и тестирование программных модулей\Практическая 3\calculator\calculator\bin\Release\net8.0-windows\app.publish\calculator.dll
+D:\projects\MDK\MDK.01.02 Поддержка и тестирование программных модулей\Практическая 3\calculator\calculator\bin\Release\net8.0-windows\app.publish\calculator.deps.json
+D:\projects\MDK\MDK.01.02 Поддержка и тестирование программных модулей\Практическая 3\calculator\calculator\bin\Release\net8.0-windows\app.publish\calculator.runtimeconfig.json
+D:\projects\MDK\MDK.01.02 Поддержка и тестирование программных модулей\Практическая 3\calculator\calculator\bin\Release\net8.0-windows\app.publish\calculator.pdb

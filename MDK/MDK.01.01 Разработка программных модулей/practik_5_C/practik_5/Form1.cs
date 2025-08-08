@@ -1,0 +1,185 @@
+using System.Security.Cryptography.X509Certificates;
+using classes;
+namespace practik_5
+{
+
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+            inputName.Location = new Point(-100, -100); ///28 217
+            inputWeight.Location = new Point(-100, -100); //28 281
+            inputDiametr.Location = new Point(-100, -100); //28 250
+            inputWonSun.Location = new Point(-100, -100); //28 311
+            textBox1.Location = new Point(-100, -100); //125 217
+            textBox2.Location = new Point(-100, -100); //125 281
+            textBox3.Location = new Point(-100, -100); //125 250
+            textBox4.Location = new Point(-100, -100); //125 311
+            ButCreateObj.Location = new Point(-100, -100); //287 250
+            inputlabelcatch.Location = new Point(-100, -100); //160 374
+            labelTask1.Location = new Point(28, 217); // 28 217
+
+        }
+        public List<Country> listPlanet = new List<Country>();
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (comboBox1.SelectedItem == "Создать экземпляр")
+            {
+                inputName.Location = new Point(28, 217); ///28 217
+                inputWeight.Location = new Point(28, 281); //28 281
+                inputDiametr.Location = new Point(28, 250); //28 250
+                inputWonSun.Location = new Point(28, 311); //28 311
+                textBox1.Location = new Point(125, 217); //125 217
+                textBox2.Location = new Point(125, 250); //125 281
+                textBox3.Location = new Point(125, 281); //125 250
+                textBox4.Location = new Point(125, 311); //125 311
+                ButCreateObj.Location = new Point(287, 250); //287 250
+                inputlabelcatch.Location = new Point(160, 374); //160 374
+                labelTask1.Location = new Point(-100, -100);
+                minimumlabel.Location = new Point(-100, -100); //28, 220
+                textBox1.Text = "";
+                textBox2.Text = "";
+                textBox3.Text = "";
+                textBox4.Text = "";
+            }
+            else if (comboBox1.SelectedItem == "Наименьшее плот." && listPlanet.Count > 0)
+            {
+                inputName.Location = new Point(-100, -100); ///28 217
+                inputWeight.Location = new Point(-100, -100); //28 281
+                inputDiametr.Location = new Point(-100, -100); //28 250
+                inputWonSun.Location = new Point(-100, -100); //28 311
+                textBox1.Location = new Point(-100, -100); //125 217
+                textBox2.Location = new Point(-100, -100); //125 281
+                textBox3.Location = new Point(-100, -100); //125 250
+                textBox4.Location = new Point(-100, -100); //125 311
+                ButCreateObj.Location = new Point(-100, -100); //287 250
+                inputlabelcatch.Location = new Point(-100, -100); //160 374
+                labelTask1.Location = new Point(-100, -100); // 28 217
+                minimumlabel.Location = new Point(28, 220); //28, 220
+
+                double rast = double.PositiveInfinity;
+                string namerast = "";
+                foreach (var i in listPlanet)
+                {
+                    if (i.chislen/i.ploshad < rast)
+                    {
+                        rast = i.chislen / i.ploshad;
+                        namerast = i.name;
+                    }
+                }
+                
+                minimumlabel.Text = $"Наименьшая плотность насленеия у страны {namerast} а именно - {rast}";
+            }
+            else if (comboBox1.SelectedItem != "Создать экземпляр" && comboBox2.SelectedItem == "Инфомация")
+            {
+                inputName.Location = new Point(-100, -100); ///28 217
+                inputWeight.Location = new Point(-100, -100); //28 281
+                inputDiametr.Location = new Point(-100, -100); //28 250
+                inputWonSun.Location = new Point(-100, -100); //28 311
+                textBox1.Location = new Point(-100, -100); //125 217
+                textBox2.Location = new Point(-100, -100); //125 281
+                textBox3.Location = new Point(-100, -100); //125 250
+                textBox4.Location = new Point(-100, -100); //125 311
+                ButCreateObj.Location = new Point(-100, -100); //287 250
+                inputlabelcatch.Location = new Point(-100, -100); //160 374
+                labelTask1.Location = new Point(28, 217); // 28 217
+                minimumlabel.Location = new Point(-100, -100); //28, 220
+
+                var nameplanet = Convert.ToString(comboBox1.SelectedItem);
+                foreach(var i in listPlanet)
+                {
+                    if (nameplanet == i.name) {
+                        labelTask1.Text = i.PrintInfo();
+                    }
+                }
+            }
+            else if (comboBox1.SelectedItem != "Создать экземпляр" && comboBox2.SelectedItem == "Плотность населения")
+            {
+                inputName.Location = new Point(-100, -100); ///28 217
+                inputWeight.Location = new Point(-100, -100); //28 281
+                inputDiametr.Location = new Point(-100, -100); //28 250
+                inputWonSun.Location = new Point(-100, -100); //28 311
+                textBox1.Location = new Point(-100, -100); //125 217
+                textBox2.Location = new Point(-100, -100); //125 281
+                textBox3.Location = new Point(-100, -100); //125 250
+                textBox4.Location = new Point(-100, -100); //125 311
+                ButCreateObj.Location = new Point(-100, -100); //287 250
+                inputlabelcatch.Location = new Point(-100, -100); //160 374
+                labelTask1.Location = new Point(28, 217); // 28 217
+                minimumlabel.Location = new Point(-100, -100); //28, 220
+
+                var nameplanet = Convert.ToString(comboBox1.SelectedItem);
+                foreach (var i in listPlanet)
+                {
+                    if (nameplanet == i.name)
+                    {
+                        labelTask1.Text = i.PrintWonSun();
+                    }
+                }
+            }
+
+        }
+
+        private void ButCreateObj_Click(object sender, EventArgs e)
+        {
+            bool chk = false;
+            try
+            {
+                Country planeta = new Country();
+                if (Convert.ToDouble(textBox3.Text) < 0 || Convert.ToDouble(textBox4.Text) < 0)
+                {
+                    chk = true;
+                    listPlanet[-1] = planeta;
+                }
+                planeta.name = textBox1.Text;
+                planeta.form_prav = textBox2.Text;
+                planeta.chislen = Convert.ToDouble(textBox3.Text);
+                planeta.ploshad = Convert.ToDouble(textBox4.Text);
+                listPlanet.Add(planeta);
+
+                inputName.Location = new Point(-100, -100); ///28 217
+                inputWeight.Location = new Point(-100, -100); //28 281
+                inputDiametr.Location = new Point(-100, -100); //28 250
+                inputWonSun.Location = new Point(-100, -100); //28 311
+                textBox1.Location = new Point(-100, -100); //125 217
+                textBox2.Location = new Point(-100, -100); //125 281
+                textBox3.Location = new Point(-100, -100); //125 250
+                textBox4.Location = new Point(-100, -100); //125 311
+                ButCreateObj.Location = new Point(-100, -100); //287 250
+                inputlabelcatch.Location = new Point(-100, -100);
+                labelTask1.Location = new Point(28, 217);
+                comboBox1.Items.Add(planeta.name);
+                inputlabelcatch.Text = "";
+            }
+            catch
+            {
+                if (chk)
+                {
+                    inputlabelcatch.Text = "Обнаружены отрицательные значения!!!";
+                    chk = false;
+                }
+                else
+                {
+                    inputlabelcatch.Text = "Обнаружены неверные символы!!";
+                }
+            }
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            comboBox2.Items.Clear();
+
+            if (comboBox1.SelectedItem != "Создать экземпляр" && comboBox1.SelectedItem != "Наименьшее раст.")
+            {
+                comboBox2.Items.Add("Инфомация");
+                comboBox2.Items.Add("Плотность населения");
+            }
+            else
+            {
+                comboBox2.Items.Clear();
+            }
+        }
+    }
+}

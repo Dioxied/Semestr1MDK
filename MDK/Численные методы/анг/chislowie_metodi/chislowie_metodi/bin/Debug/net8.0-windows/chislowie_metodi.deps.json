@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "chislowie_metodi/1.0.0": {
+        "runtime": {
+          "chislowie_metodi.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "chislowie_metodi/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,16 @@
+D:\projects\MDK\Численные методы\chislowie_metodi\chislowie_metodi\bin\Debug\net8.0-windows\chislowie_metodi.exe
+D:\projects\MDK\Численные методы\chislowie_metodi\chislowie_metodi\bin\Debug\net8.0-windows\chislowie_metodi.deps.json
+D:\projects\MDK\Численные методы\chislowie_metodi\chislowie_metodi\bin\Debug\net8.0-windows\chislowie_metodi.runtimeconfig.json
+D:\projects\MDK\Численные методы\chislowie_metodi\chislowie_metodi\bin\Debug\net8.0-windows\chislowie_metodi.dll
+D:\projects\MDK\Численные методы\chislowie_metodi\chislowie_metodi\bin\Debug\net8.0-windows\chislowie_metodi.pdb
+D:\projects\MDK\Численные методы\chislowie_metodi\chislowie_metodi\obj\Debug\net8.0-windows\chislowie_metodi.Form1.resources
+D:\projects\MDK\Численные методы\chislowie_metodi\chislowie_metodi\obj\Debug\net8.0-windows\chislowie_metodi.csproj.GenerateResource.cache
+D:\projects\MDK\Численные методы\chislowie_metodi\chislowie_metodi\obj\Debug\net8.0-windows\chislowie_metodi.GeneratedMSBuildEditorConfig.editorconfig
+D:\projects\MDK\Численные методы\chislowie_metodi\chislowie_metodi\obj\Debug\net8.0-windows\chislowie_metodi.AssemblyInfoInputs.cache
+D:\projects\MDK\Численные методы\chislowie_metodi\chislowie_metodi\obj\Debug\net8.0-windows\chislowie_metodi.AssemblyInfo.cs
+D:\projects\MDK\Численные методы\chislowie_metodi\chislowie_metodi\obj\Debug\net8.0-windows\chislowie_metodi.csproj.CoreCompileInputs.cache
+D:\projects\MDK\Численные методы\chislowie_metodi\chislowie_metodi\obj\Debug\net8.0-windows\chislowie_metodi.dll
+D:\projects\MDK\Численные методы\chislowie_metodi\chislowie_metodi\obj\Debug\net8.0-windows\refint\chislowie_metodi.dll
+D:\projects\MDK\Численные методы\chislowie_metodi\chislowie_metodi\obj\Debug\net8.0-windows\chislowie_metodi.pdb
+D:\projects\MDK\Численные методы\chislowie_metodi\chislowie_metodi\obj\Debug\net8.0-windows\chislowie_metodi.genruntimeconfig.cache
+D:\projects\MDK\Численные методы\chislowie_metodi\chislowie_metodi\obj\Debug\net8.0-windows\ref\chislowie_metodi.dll

@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1075</width>
+    <height>578</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>0</y>
+      <width>991</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>36</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Численные методы 3 Практическая</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>80</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Метод Гаусса</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>170</y>
+      <width>651</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="rowCount">
+     <number>4</number>
+    </property>
+    <property name="columnCount">
+     <number>5</number>
+    </property>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <column>
+     <property name="text">
+      <string>x1</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>x2</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>x3</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>x4</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Свобод. члены</string>
+     </property>
+    </column>
+    <item row="0" column="0">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="0" column="1">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="0" column="2">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="0" column="3">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="0" column="4">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="1" column="0">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="1" column="1">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="1" column="2">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="1" column="3">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="1" column="4">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="2" column="0">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="2" column="1">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="2" column="2">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="2" column="3">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="2" column="4">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="3" column="0">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="3" column="1">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="3" column="2">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="3" column="3">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="3" column="4">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>130</y>
+      <width>581</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Заполните таблицу по значениям из вашей матрицы</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_x1">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>370</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Х1 = </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_x2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>400</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Х2 = </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_x3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>430</y>
+      <width>191</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Х3 = </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_x4">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>460</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Х4 = </string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_start">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>160</y>
+      <width>271</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Старт</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_end">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>250</y>
+      <width>271</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Выйти</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

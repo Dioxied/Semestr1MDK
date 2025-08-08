@@ -1,0 +1,229 @@
+fun String.wordCount(c: Char) : Int {
+    var count = 0
+    for(n in this) {
+        if(n == c) count++
+    }
+    return count
+}
+
+
+fun checkAlfavit(c: String) : Boolean {
+    var alfavit = arrayOf('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z')
+    var check = true
+    var word = c
+        for (i in 0..word.count()-1){
+            for (j in i..word.count()-1){
+                if (alfavit.indexOf(word[i]) > alfavit.indexOf(word[j])){
+                    check = false
+                }
+            }
+        }
+        if (check){
+            return true
+        }
+        else{
+            return false
+        }
+}
+
+
+fun main() {
+    // println("Task 1")
+    // print("Enter your string: ")
+    // var s1: String = readLine().toString()
+    // for (i in 1..3){
+    //     print(s1)
+    //     print(" ")
+    // }
+    // println(s1.count())
+    
+    // println()
+    // println("Task 2")
+    // print("Enter string of 10 simvol: ")
+    // var s2: String = readLine().toString()
+    // for (i in 0..9){
+    //     if ((i+1)%2==0){
+    //         print(i+1)
+    //     }
+    //     else{
+    //         print(s2[i])
+    //     }
+    // }
+    // println()
+    
+    // println("Task 3")
+    // print("Enter your number: ")
+    // var s3: Int = readLine()!!.toInt()
+    // if (s3 < 1 || s3 > 1999) {
+    //     throw IllegalArgumentException("Number must be between 1 and 1999")
+    // }
+
+    // val romanNumerals = listOf("M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I")
+    // val arabicValues = listOf(1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1)
+
+    // var remainingNumber = s3
+    // val result = StringBuilder()
+
+    // for (i in romanNumerals.indices) {
+    //     while (remainingNumber >= arabicValues[i]) {
+    //         result.append(romanNumerals[i])
+    //         remainingNumber -= arabicValues[i]
+    //     }
+    // }
+
+    // println(result.toString())
+    // println()
+    
+    // println("Task 4")
+    // print("")
+    // println()
+    
+    // println("Task 5")
+    // print("Enter yor string: ")
+    // var s41: String = readLine().toString()
+    // var s4 = s41.split(" ")
+    // print("K at the beginning and K at the end:- ")
+    // for (i in s4){
+    //     if (i[0] == i[i.count()-1]){
+    //         print(i)
+    //         print(" ")
+    //     }
+    // }
+    // println()
+    // print("three K's in a word:- ")
+    // for (i in s4){
+    //     if (i.wordCount('k')==3){
+    //         print(i)
+    //         print(" ")
+    //     }
+    // }
+    // println()
+    
+    
+    // println("Task 6")
+    // print("Enter your string: ")
+    // var s61: String = readLine().toString()
+    // var s6 = s61.split(" ")
+    // print("There are no duplicate letters:- ")
+    // for (i in s6){
+    //     var check = true
+    //     for (j in i){
+    //         if (i.wordCount(j) > 1){
+    //             check = false
+    //         }
+    //     }
+    //     if (check){
+    //         print(i)
+    //         print(' ')
+    //     }
+    // }
+    // println()
+    // print("Ordered alphabetically:- ")
+    // for (word in s6) {
+    //     if (checkAlfavit(word)){
+    //         print(word)
+    //         print(' ')
+    //     }
+    // }
+    // println()
+    // print("The words with the maximum length:- ")
+    // var MaxElem: Int = 0
+    // for (i in s6){
+    //     if (i.count() > MaxElem){
+    //         MaxElem = i.count()
+    //     }
+    // }
+    // for (i in s6) {
+    //     if (i.count() == MaxElem){
+    //         print(i)
+    //         print(" ")
+    //     }
+    // }
+    // println()
+    
+    // println("Task 7")
+    // print("Enter your string: ")
+    // var s71 : String = readLine().toString()
+    // var s7 = s71.split(" ")
+    // var chastWord : String = s7[0]
+    // for (i in 0..s7.count() - 2){
+    //     if (s7.count{it == s7[i]} > s7.count{it == s7[i+1]}){
+    //         chastWord = s7[i]
+    //     }
+    //     else{
+    //         chastWord = s7[i+1]
+    //     }
+    // }
+    // println("The most common word:- $chastWord")
+    // print("Ordered alphabetically:- ")
+    // for (i in s7){
+    //     var check = true
+    //     for (j in i){
+    //         if (i.wordCount(j) > 1){
+    //             check = false
+    //         }
+    //     }
+    //     if (check){
+    //         print(i)
+    //         print(' ')
+    //     }
+    // }
+    // println()
+
+    // println("Task 8")
+    // print("Enter your string: ")
+    // var s81 : String = readLine().toString()
+    // var s8 = s81.split(" ")
+    // print("Result:- ")
+    // for (i in 1..s8.count()-1){
+    //     var check = true
+    //     for (j in s8[i]){
+    //         if (!(j in s8[0])){
+    //             check = false
+    //             break
+    //         }
+    //     }
+    //     if (check){
+    //         print(s8[i])
+    //         print(" ")
+    //     }
+    // }
+    // println()
+    
+    println("Task 9")
+    print("Enter your roman number: ")
+    var s9 : String = readLine().toString()
+    val romanNumerals = listOf("M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I")
+    val arabicValues = listOf(1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1)
+    var num : Int = 0
+    while(s9 != ""){
+        if (s9.count() > 1){
+            var simvol : String = "${s9[0]}${s9[1]}"
+            if (romanNumerals.indexOf(simvol) != -1){
+                num += arabicValues[romanNumerals.indexOf(simvol)]
+                s9 = s9.drop(2)
+            }
+            else{
+                num += arabicValues[romanNumerals.indexOf("${s9[0]}")]
+                s9 = s9.drop(1)
+            }
+        }
+        else{
+            num += arabicValues[romanNumerals.indexOf("${s9[0]}")]
+            s9 = s9.drop(1)
+        }
+    }
+    println(num)
+    println()
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}

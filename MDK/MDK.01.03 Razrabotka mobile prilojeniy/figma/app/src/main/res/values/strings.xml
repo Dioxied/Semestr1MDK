@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">figma</string>
+    <string name="real_time_t"> Real-time Tracking </string>
+    <string name="track_your_"> Track your packages/items from the comfort of your home till final destination </string>
+    <string name="already_hav"> Already have an account? </string>
+    <string name="app_name">figma</string>
+    <string name="some_id"> Sign Up </string>
+
+    <string name="create_an_a">
+            Create an account
+        </string>
+    <string name="complete_th">
+            Complete the sign up process to get started
+        </string>
+    <string name="lablename">Full name</string>
+    <string name="hint1">Full name</string>
+
+    <string name="lablename2">Phone Number</string>
+    <string name="hint2">+7(999)999-99-99</string>
+
+
+    <string name="lablename3">Email Address</string>
+    <string name="hint3">***********@mail.com</string>
+
+    <string name="lablename4">Password</string>
+    <string name="hint4">********</string>
+
+    <string name="lablename5">Confim Password</string>
+    <string name="hint5">********</string>
+
+    <string name="by_ticking_">
+                By ticking this box, you agree to our Terms and conditions and private policy
+            </string>
+    <string name="already_hav">
+                    Already have an account?
+                </string>
+    <string name="or_sign_in_">
+                    or sign in using
+                </string>
+</resources>

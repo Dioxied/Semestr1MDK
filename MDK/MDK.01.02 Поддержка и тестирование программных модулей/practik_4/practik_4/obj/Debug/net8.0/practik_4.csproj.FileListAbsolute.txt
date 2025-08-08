@@ -1,0 +1,11 @@
+D:\projects\MDK\MDK.01.02 Поддержка и тестирование программных модулей\practik_4\practik_4\obj\Debug\net8.0\practik_4.GeneratedMSBuildEditorConfig.editorconfig
+D:\projects\MDK\MDK.01.02 Поддержка и тестирование программных модулей\practik_4\practik_4\obj\Debug\net8.0\practik_4.AssemblyInfoInputs.cache
+D:\projects\MDK\MDK.01.02 Поддержка и тестирование программных модулей\practik_4\practik_4\obj\Debug\net8.0\practik_4.AssemblyInfo.cs
+D:\projects\MDK\MDK.01.02 Поддержка и тестирование программных модулей\practik_4\practik_4\obj\Debug\net8.0\practik_4.csproj.CoreCompileInputs.cache
+D:\projects\MDK\MDK.01.02 Поддержка и тестирование программных модулей\practik_4\practik_4\bin\Debug\net8.0\practik_4.deps.json
+D:\projects\MDK\MDK.01.02 Поддержка и тестирование программных модулей\practik_4\practik_4\bin\Debug\net8.0\practik_4.dll
+D:\projects\MDK\MDK.01.02 Поддержка и тестирование программных модулей\practik_4\practik_4\bin\Debug\net8.0\practik_4.pdb
+D:\projects\MDK\MDK.01.02 Поддержка и тестирование программных модулей\practik_4\practik_4\obj\Debug\net8.0\practik_4.dll
+D:\projects\MDK\MDK.01.02 Поддержка и тестирование программных модулей\practik_4\practik_4\obj\Debug\net8.0\refint\practik_4.dll
+D:\projects\MDK\MDK.01.02 Поддержка и тестирование программных модулей\practik_4\practik_4\obj\Debug\net8.0\practik_4.pdb
+D:\projects\MDK\MDK.01.02 Поддержка и тестирование программных модулей\practik_4\practik_4\obj\Debug\net8.0\ref\practik_4.dll

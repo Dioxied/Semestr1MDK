@@ -1,0 +1,16 @@
+D:\projects\Visual Studio\2 семестр\C#\2_Practik\2_Practik\bin\Debug\net8.0-windows\2_Practik.exe
+D:\projects\Visual Studio\2 семестр\C#\2_Practik\2_Practik\bin\Debug\net8.0-windows\2_Practik.deps.json
+D:\projects\Visual Studio\2 семестр\C#\2_Practik\2_Practik\bin\Debug\net8.0-windows\2_Practik.runtimeconfig.json
+D:\projects\Visual Studio\2 семестр\C#\2_Practik\2_Practik\bin\Debug\net8.0-windows\2_Practik.dll
+D:\projects\Visual Studio\2 семестр\C#\2_Practik\2_Practik\bin\Debug\net8.0-windows\2_Practik.pdb
+D:\projects\Visual Studio\2 семестр\C#\2_Practik\2_Practik\obj\Debug\net8.0-windows\_2_Practik.Form1.resources
+D:\projects\Visual Studio\2 семестр\C#\2_Practik\2_Practik\obj\Debug\net8.0-windows\2_Practik.csproj.GenerateResource.cache
+D:\projects\Visual Studio\2 семестр\C#\2_Practik\2_Practik\obj\Debug\net8.0-windows\2_Practik.GeneratedMSBuildEditorConfig.editorconfig
+D:\projects\Visual Studio\2 семестр\C#\2_Practik\2_Practik\obj\Debug\net8.0-windows\2_Practik.AssemblyInfoInputs.cache
+D:\projects\Visual Studio\2 семестр\C#\2_Practik\2_Practik\obj\Debug\net8.0-windows\2_Practik.AssemblyInfo.cs
+D:\projects\Visual Studio\2 семестр\C#\2_Practik\2_Practik\obj\Debug\net8.0-windows\2_Practik.csproj.CoreCompileInputs.cache
+D:\projects\Visual Studio\2 семестр\C#\2_Practik\2_Practik\obj\Debug\net8.0-windows\2_Practik.dll
+D:\projects\Visual Studio\2 семестр\C#\2_Practik\2_Practik\obj\Debug\net8.0-windows\refint\2_Practik.dll
+D:\projects\Visual Studio\2 семестр\C#\2_Practik\2_Practik\obj\Debug\net8.0-windows\2_Practik.pdb
+D:\projects\Visual Studio\2 семестр\C#\2_Practik\2_Practik\obj\Debug\net8.0-windows\2_Practik.genruntimeconfig.cache
+D:\projects\Visual Studio\2 семестр\C#\2_Practik\2_Practik\obj\Debug\net8.0-windows\ref\2_Practik.dll

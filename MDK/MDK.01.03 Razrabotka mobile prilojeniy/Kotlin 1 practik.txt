@@ -1,0 +1,58 @@
+fun main(){
+    println("Task 1")
+    print("Enter number: ")
+    var a1:Float = readLine()!!.toFloat()
+    var a11 = a1*a1
+    var a12 = a11 * a1
+    println("Kvadrat - $a11 , Kub - $a12")
+    
+    println("Task 2")
+    print("Enter first number: ")
+    var a21:Float = readLine()!!.toFloat()
+    print("Enter second number: ")
+    var a22:Float = readLine()!!.toFloat()
+    print("Enter thirt number: ")
+    var a23:Float = readLine()!!.toFloat()
+    print("Summ numbers: ")
+    println((a21*2)+(a22-3)+(a23*a23))
+    
+    println("Task 3")
+    print("Enter first numbers: ")
+    var a31:Float = readLine()!!.toFloat()
+    print("Enter second numbers: ")
+    var a32:Float = readLine()!!.toFloat()
+    print("Enter thirt numbers: ")
+    var a33:Float = readLine()!!.toFloat()
+    var srdarif = (a31+a32+a33)/3
+    println("arithmetic mean - $srdarif")
+    var urav = 2*(a31+a33) - a32*3
+    println("difference - $urav")
+    
+    println("Task 4")
+    print("Enter side of the square: ")
+    var storona = readLine()!!.toFloat()
+    var perimetr = storona * 4
+    var ploshad = storona * storona
+    println("perimeter - $perimetr, square - $ploshad")
+    
+    println("Task 5")
+    print("Enter the resistance of 1 kg of candies: ")
+    var price1:Float = readLine()!!.toFloat()
+    print("Enter the resistance of 1kg of cookies: ")
+    var price2:Float = readLine()!!.toFloat()
+    var buy1 = price1*0.3 + price2*0.4
+    println("a) $buy1")
+    var buy2 = 3*(price2 * 2 + price1 * 1.8)
+    println("b) $buy2")
+    
+    println("Task 6")
+    print("Enter the time in minutes: ")
+    var time:Float = readLine()!!.toFloat()
+    print("Enter the distance in kilometers: ")
+    var km:Float = readLine()!!.toFloat()
+    var scorost = (km*1000)/(time*60)
+    println("The speed is equal to - $scorost m/s")
+
+    
+    
+}

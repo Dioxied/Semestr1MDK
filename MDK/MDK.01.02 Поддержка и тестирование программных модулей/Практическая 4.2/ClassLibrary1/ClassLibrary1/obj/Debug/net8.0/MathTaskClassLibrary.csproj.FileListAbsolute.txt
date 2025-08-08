@@ -1,0 +1,11 @@
+D:\projects\MDK\MDK.01.02 Поддержка и тестирование программных модулей\Практическая 4.2\ClassLibrary1\ClassLibrary1\bin\Debug\net8.0\MathTaskClassLibrary.deps.json
+D:\projects\MDK\MDK.01.02 Поддержка и тестирование программных модулей\Практическая 4.2\ClassLibrary1\ClassLibrary1\bin\Debug\net8.0\MathTaskClassLibrary.dll
+D:\projects\MDK\MDK.01.02 Поддержка и тестирование программных модулей\Практическая 4.2\ClassLibrary1\ClassLibrary1\bin\Debug\net8.0\MathTaskClassLibrary.pdb
+D:\projects\MDK\MDK.01.02 Поддержка и тестирование программных модулей\Практическая 4.2\ClassLibrary1\ClassLibrary1\obj\Debug\net8.0\MathTaskClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\projects\MDK\MDK.01.02 Поддержка и тестирование программных модулей\Практическая 4.2\ClassLibrary1\ClassLibrary1\obj\Debug\net8.0\MathTaskClassLibrary.AssemblyInfoInputs.cache
+D:\projects\MDK\MDK.01.02 Поддержка и тестирование программных модулей\Практическая 4.2\ClassLibrary1\ClassLibrary1\obj\Debug\net8.0\MathTaskClassLibrary.AssemblyInfo.cs
+D:\projects\MDK\MDK.01.02 Поддержка и тестирование программных модулей\Практическая 4.2\ClassLibrary1\ClassLibrary1\obj\Debug\net8.0\MathTaskClassLibrary.csproj.CoreCompileInputs.cache
+D:\projects\MDK\MDK.01.02 Поддержка и тестирование программных модулей\Практическая 4.2\ClassLibrary1\ClassLibrary1\obj\Debug\net8.0\MathTaskClassLibrary.dll
+D:\projects\MDK\MDK.01.02 Поддержка и тестирование программных модулей\Практическая 4.2\ClassLibrary1\ClassLibrary1\obj\Debug\net8.0\refint\MathTaskClassLibrary.dll
+D:\projects\MDK\MDK.01.02 Поддержка и тестирование программных модулей\Практическая 4.2\ClassLibrary1\ClassLibrary1\obj\Debug\net8.0\MathTaskClassLibrary.pdb
+D:\projects\MDK\MDK.01.02 Поддержка и тестирование программных модулей\Практическая 4.2\ClassLibrary1\ClassLibrary1\obj\Debug\net8.0\ref\MathTaskClassLibrary.dll

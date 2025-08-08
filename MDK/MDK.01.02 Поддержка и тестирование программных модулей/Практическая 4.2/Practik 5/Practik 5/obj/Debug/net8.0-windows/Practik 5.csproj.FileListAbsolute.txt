@@ -1,0 +1,17 @@
+D:\projects\MDK\MDK.01.02 Поддержка и тестирование программных модулей\Практическая 4.2\Practik 5\Practik 5\bin\Debug\net8.0-windows\Practik 5.exe
+D:\projects\MDK\MDK.01.02 Поддержка и тестирование программных модулей\Практическая 4.2\Practik 5\Practik 5\bin\Debug\net8.0-windows\Practik 5.deps.json
+D:\projects\MDK\MDK.01.02 Поддержка и тестирование программных модулей\Практическая 4.2\Practik 5\Practik 5\bin\Debug\net8.0-windows\Practik 5.runtimeconfig.json
+D:\projects\MDK\MDK.01.02 Поддержка и тестирование программных модулей\Практическая 4.2\Practik 5\Practik 5\bin\Debug\net8.0-windows\Practik 5.dll
+D:\projects\MDK\MDK.01.02 Поддержка и тестирование программных модулей\Практическая 4.2\Practik 5\Practik 5\bin\Debug\net8.0-windows\Practik 5.pdb
+D:\projects\MDK\MDK.01.02 Поддержка и тестирование программных модулей\Практическая 4.2\Practik 5\Practik 5\obj\Debug\net8.0-windows\Practik_5.Form1.resources
+D:\projects\MDK\MDK.01.02 Поддержка и тестирование программных модулей\Практическая 4.2\Practik 5\Practik 5\obj\Debug\net8.0-windows\Practik_5.Properties.Resources.resources
+D:\projects\MDK\MDK.01.02 Поддержка и тестирование программных модулей\Практическая 4.2\Practik 5\Practik 5\obj\Debug\net8.0-windows\Practik 5.csproj.GenerateResource.cache
+D:\projects\MDK\MDK.01.02 Поддержка и тестирование программных модулей\Практическая 4.2\Practik 5\Practik 5\obj\Debug\net8.0-windows\Practik 5.GeneratedMSBuildEditorConfig.editorconfig
+D:\projects\MDK\MDK.01.02 Поддержка и тестирование программных модулей\Практическая 4.2\Practik 5\Practik 5\obj\Debug\net8.0-windows\Practik 5.AssemblyInfoInputs.cache
+D:\projects\MDK\MDK.01.02 Поддержка и тестирование программных модулей\Практическая 4.2\Practik 5\Practik 5\obj\Debug\net8.0-windows\Practik 5.AssemblyInfo.cs
+D:\projects\MDK\MDK.01.02 Поддержка и тестирование программных модулей\Практическая 4.2\Practik 5\Practik 5\obj\Debug\net8.0-windows\Practik 5.csproj.CoreCompileInputs.cache
+D:\projects\MDK\MDK.01.02 Поддержка и тестирование программных модулей\Практическая 4.2\Practik 5\Practik 5\obj\Debug\net8.0-windows\Practik 5.dll
+D:\projects\MDK\MDK.01.02 Поддержка и тестирование программных модулей\Практическая 4.2\Practik 5\Practik 5\obj\Debug\net8.0-windows\refint\Practik 5.dll
+D:\projects\MDK\MDK.01.02 Поддержка и тестирование программных модулей\Практическая 4.2\Practik 5\Practik 5\obj\Debug\net8.0-windows\Practik 5.pdb
+D:\projects\MDK\MDK.01.02 Поддержка и тестирование программных модулей\Практическая 4.2\Practik 5\Practik 5\obj\Debug\net8.0-windows\Practik 5.genruntimeconfig.cache
+D:\projects\MDK\MDK.01.02 Поддержка и тестирование программных модулей\Практическая 4.2\Practik 5\Practik 5\obj\Debug\net8.0-windows\ref\Practik 5.dll
